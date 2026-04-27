@@ -2,6 +2,10 @@
 
 A multi-agent system that supports software teams with an AI-powered asynchronous standup system using local LLM models.
 
+## Screenshot
+
+![AgileStandupTracker](AgileStandupTracker.png)
+
 ## Features
 
 - **Multi-Agent Architecture**: Three specialized agents work together to provide comprehensive standup assistance
@@ -69,9 +73,9 @@ The application will open in your browser at `http://localhost:8501`
 ### Using the Application
 
 1. **Enter Daily Update**: Provide your standup update in the sidebar
-2. **Select Agent Mode**: Choose between summary, blocker detection, or progress estimation
-3. **Click "Process Standup"**: The agents will analyze and provide insights
-4. **Review Results**: View agent outputs and recommendations
+2. **Click "Run Standup Agents"**: The agents will analyze and provide insights
+3. **Review Results**: View agent outputs and recommendations
+4. **Inspect the Collaboration Log**: See the ordered session history for the run
 
 ### Project Structure
 
